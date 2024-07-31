@@ -4,7 +4,7 @@ import builderImage from "../../assets/builderImage.png";
 const BuilderCard = () => {
   return (
     <div className=" flex flex-col gap-y-7">
-      <div className="flex items-center space-x-4 p-4 bg-white  shadow-lg w-fit px-10">
+      <div className="flex items-center justify-center space-x-4 p-4 bg-white  shadow-lg w-full px-10">
         <img
           src={builderImage}
           alt="Project"
@@ -23,7 +23,7 @@ const BuilderCard = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center space-x-4 p-4 bg-white shadow-lg w-fit px-10">
+      <div className="flex items-center justify-center space-x-4 p-4 bg-white shadow-lg w-full px-10">
         <img
           src={builderImage}
           alt="Project"

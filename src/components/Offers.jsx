@@ -5,7 +5,7 @@ const Offers = () => {
   return (
     <div>
       <h1 className=" font-bold text-xl">Offers for You</h1>
-      <div className=" mt-2 flex justify-evenly items-center">
+      <div className=" mt-2 flex justify-evenly items-center flex-wrap">
         <OfferCard />
         <OfferCard />
         <OfferCard />

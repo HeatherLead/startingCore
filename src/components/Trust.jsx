@@ -4,7 +4,7 @@ import handingKey from "../assets/HandingKey.png";
 
 const Trust = () => {
   return (
-    <div className=" border   flex justify-evenly flex-wrap rounded-md gap-y-4 shadow-sm">
+    <div className=" border   flex justify-evenly flex-wrap-reverse rounded-md gap-y-4 shadow-sm">
       <div className=" md:w-2/3 p-5 space-y-6">
         <h1 className=" font-medium text-xl text-[#FF6400]">
           Sell or Rent Your Property

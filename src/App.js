@@ -10,25 +10,26 @@ import Offers from "./components/Offers";
 import Demand from "./components/Demand";
 import NewLaunched from "./components/NewLaunched";
 import PopularBuilders from "./components/PopularBuilders";
+import Footer from "./components/Footer";
 function App() {
   return (
     <Theme accentColor="orange">
       <div className=" overflow-hidden ">
         <Navbar />
-        <div className=" bg-[url('./assets/background.png')] bg-cover flex justify-start items-start  pt-20 w-screen h-[80vh] overflow-hidden ">
-          <div className=" h-full  flex justify-end items-end">
-            <img src={building} className=" w-full " alt="" />
+        <div className="bg-[url('./assets/background.png')] bg-cover flex flex-wrap justify-start items-start pt-20 w-screen  overflow-hidden">
+          <div className="flex justify-end items-end w-full md:w-1/2">
+            <img src={building} className="w-full" alt="Building" />
           </div>
 
-          <div className=" flex justify-start items-start flex-col w-1/2">
-            <h1 className=" text-4xl  w-3/4 font-bold pb-20">
+          <div className="flex flex-col justify-start items-start w-full md:w-1/2 p-4 pt-14">
+            <h1 className="text-4xl w-full font-bold pb-5">
               Find your Perfect Home with Dreamhausi
             </h1>
-            <p className=" w-2/3 pb-5 ">
+            <p className="lg:w-2/3 pb-5">
               Search through our handpicked selection of homes and apartments to
               find the one that fits your lifestyle perfectly.
             </p>
-            <p className="w-2/3 pb-10">
+            <p className="lg:w-2/3 pb-10">
               Whether you're looking for a cozy apartment in the city or a
               spacious family home in the suburbs, our listings are designed to
               help you find the perfect place to call home.
@@ -54,6 +55,7 @@ function App() {
         <NewLaunched />
         <PopularBuilders />
       </div>
+      <Footer />
     </Theme>
   );
 }
