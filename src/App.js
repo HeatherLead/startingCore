@@ -8,6 +8,8 @@ import Stats from "./components/Stats";
 import Trust from "./components/Trust";
 import Offers from "./components/Offers";
 import Demand from "./components/Demand";
+import NewLaunched from "./components/NewLaunched";
+import PopularBuilders from "./components/PopularBuilders";
 function App() {
   return (
     <Theme accentColor="orange">
@@ -49,6 +51,8 @@ function App() {
         </div>
         <Offers />
         <Demand />
+        <NewLaunched />
+        <PopularBuilders />
       </div>
     </Theme>
   );
